@@ -12,7 +12,7 @@ public class NutritionPlusClient implements ClientModInitializer {
 		try {
 			// Register HUD render callback for custom hunger bar
 			HudRenderCallback.EVENT.register((guiGraphics, deltaTracker) -> {
-				HungerBarRenderer.renderHungerBar(guiGraphics);
+				ThirstBarRenderer.renderThirstBar(guiGraphics);
 			});
 			
 			NutritionPlus.LOGGER.info("NutritionPlus Client LOADED!");
