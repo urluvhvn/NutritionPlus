@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "hvn.foodrevamped.client.mixin",
+	"package": "hvn.nutritionplus.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"GuiMixin"
